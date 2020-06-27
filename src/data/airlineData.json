@@ -1,0 +1,365 @@
+{
+  "roles": [
+    {
+      "id": 1,
+      "username": "ABCD12345",
+      "password": "123456",
+      "role": "checkIn"
+    },
+    {
+      "id": 2,
+      "username": "EFGH678910",
+      "password": "123456",
+      "role": "inFlight"
+    },
+    {
+      "id": 2,
+      "username": "PQRST11111",
+      "password": "123456",
+      "role": "admin"
+    }
+  ],
+  "flightList": [
+    {
+      "id": 1,
+      "company": "Spicejet",
+      "logo": "123456",
+      "pnr": "SG-123",
+      "departure": "2020-01-28 08:11:53 PM",
+      "arrival": "2016-03-19 10:11:53 PM",
+      "aid": [
+        "",
+        ""
+      ],
+      "sid": [
+        "",
+        ""
+      ],
+      "mid": [
+        "",
+        ""
+      ],
+      "seat": [
+        {
+          "1A": "F",
+          "1B": "F",
+          "1C": "F",
+          "1D": "F",
+          "1E": "F",
+          "1F": "F"
+        },
+        {
+          "2A": "F",
+          "2B": "F",
+          "2C": "F",
+          "2D": "F",
+          "2E": "F",
+          "2F": "F"
+        },
+        {
+          "3A": "F",
+          "3B": "F",
+          "3C": "F",
+          "3D": "F",
+          "3E": "F",
+          "3F": "F"
+        },
+        {
+          "4A": "F",
+          "4B": "F",
+          "4C": "F",
+          "4D": "F",
+          "4E": "F",
+          "4F": "F"
+        },
+        {
+          "5A": "F",
+          "5B": "F",
+          "5C": "F",
+          "5D": "F",
+          "5E": "F",
+          "5F": "F"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "company": "Indigo",
+      "logo": "123456",
+      "pnr": "IG-123",
+      "departure": "2020-01-28 08:11:53 PM",
+      "arrival": "2016-03-19 10:11:53 PM",
+      "aid": [
+        3,
+        2
+      ],
+      "sid": [
+        ""
+      ],
+      "mid": [
+        ""
+      ],
+      "seat": [
+        {
+          "1A": "F",
+          "1B": "F",
+          "1C": "F",
+          "1D": "F",
+          "1E": "F",
+          "1F": "F"
+        },
+        {
+          "2A": "F",
+          "2B": "F",
+          "2C": "F",
+          "2D": "F",
+          "2E": "F",
+          "2F": "F"
+        },
+        {
+          "3A": "F",
+          "3B": "F",
+          "3C": "A",
+          "3D": "F",
+          "3E": "F",
+          "3F": "F"
+        },
+        {
+          "4A": "F",
+          "4B": "F",
+          "4C": "W",
+          "4D": "F",
+          "4E": "F",
+          "4F": "F"
+        },
+        {
+          "5A": "F",
+          "5B": "F",
+          "5C": "I",
+          "5D": "F",
+          "5E": "F",
+          "5F": "F"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "company": "Vistara",
+      "logo": "123456",
+      "pnr": "VT-123",
+      "departure": "2020-01-28 08:11:53 PM",
+      "arrival": "2016-03-19 10:11:53 PM",
+      "aid": [
+        2
+      ],
+      "sid": [
+        ""
+      ],
+      "mid": [
+        ""
+      ],
+      "seat": [
+        {
+          "1A": "F",
+          "1B": "F",
+          "1C": "F",
+          "1D": "F",
+          "1E": "F",
+          "1F": "F"
+        },
+        {
+          "2A": "F",
+          "2B": "F",
+          "2C": "F",
+          "2D": "F",
+          "2E": "F",
+          "2F": "F"
+        },
+        {
+          "3A": "F",
+          "3B": "F",
+          "3C": "F",
+          "3D": "F",
+          "3E": "F",
+          "3F": "F"
+        },
+        {
+          "4A": "F",
+          "4B": "F",
+          "4C": "F",
+          "4D": "F",
+          "4E": "F",
+          "4F": "F"
+        },
+        {
+          "5A": "F",
+          "5B": "F",
+          "5C": "F",
+          "5D": "F",
+          "5E": "F",
+          "5F": "F"
+        }
+      ]
+    }
+  ],
+  "passenger": [
+    {
+      "fid": 2,
+      "Name": "Janeq",
+      "status": "NotCheckedIn",
+      "seat": "NA",
+      "category": "Wheel Chair",
+      "passportNo": "M12425",
+      "address": "New York",
+      "dob": "02-02-2020",
+      "id": 4,
+      "row": "",
+      "aid": [],
+      "sid": [],
+      "mid": []
+    },
+    {
+      "fid": 2,
+      "Name": "Roger",
+      "status": "NotCheckedIn",
+      "seat": "NA",
+      "category": "Adult",
+      "passportNo": "M8888888",
+      "address": "Australia",
+      "dob": "15-05-2019",
+      "id": 5,
+      "row": "",
+      "aid": [],
+      "sid": [],
+      "mid": []
+    },
+    {
+      "id": 6,
+      "fid": 1,
+      "Name": "Liam",
+      "status": "F",
+      "seat": "NA",
+      "category": "Infant",
+      "passportNo": "M436678",
+      "address": "Sri Lanka",
+      "dob": "03-02-2020",
+      "row": "",
+      "aid": [],
+      "sid": [],
+      "mid": []
+    },
+    {
+      "id": 7,
+      "fid": 3,
+      "Name": "Jenny",
+      "status": "F",
+      "seat": "NA",
+      "category": "Adult",
+      "passportNo": "M45768",
+      "address": "India",
+      "dob": "21-05-2019",
+      "row": "",
+      "aid": [],
+      "sid": [],
+      "mid": []
+    },
+    {
+      "id": 8,
+      "fid": 3,
+      "Name": "Pepper",
+      "status": "F",
+      "seat": "NA",
+      "category": "Adult",
+      "passportNo": "M74980658",
+      "address": "California",
+      "dob": "13-11-2019",
+      "row": "",
+      "aid": [],
+      "sid": [],
+      "mid": []
+    },
+    {
+      "fid": 2,
+      "Name": "Tina",
+      "status": "A",
+      "seat": "3C",
+      "category": "Adult",
+      "passportNo": "M23546",
+      "address": "India",
+      "dob": "02-02-2020",
+      "id": 9,
+      "row": 2,
+      "aid": [
+        4,
+        3
+      ],
+      "sid": [
+        1,
+        2
+      ],
+      "mid": [
+        2,
+        3
+      ]
+    },
+    {
+      "fid": 2,
+      "Name": "Gia",
+      "status": "W",
+      "seat": "4C",
+      "category": "Wheel Chair",
+      "passportNo": "M38598090",
+      "address": "Finland",
+      "dob": "12-11-2019",
+      "id": 10,
+      "row": 3,
+      "aid": [],
+      "sid": [],
+      "mid": []
+    },
+    {
+      "fid": 2,
+      "Name": "Ravi",
+      "status": "I",
+      "seat": "5C",
+      "category": "Infant",
+      "passportNo": "M4365899",
+      "address": "India",
+      "dob": "03-02-2020",
+      "id": 11,
+      "row": 4,
+      "aid": [],
+      "sid": [],
+      "mid": []
+    }
+  ],
+  "idcounter": [
+    {
+      "counter": 12,
+      "id": "1"
+    }
+  ],
+  "ancillaryServices": [
+    "Priority Boarding",
+    "Seat upgrades",
+    "In-flight entertainment",
+    "Baggage"
+  ],
+  "specialMeals": [
+    "Sandwiches",
+    "Drinks",
+    "Chocolates",
+    "Snacks"
+  ],
+  "shoppingItems": [
+    "Lottery Tickets",
+    "Beauty Products",
+    "Scratch Cards",
+    "Watches"
+  ],
+  "colorCode" : {
+      "Wheel Chair" : "grey",
+      "Adult" : "grey",
+      "Infant" : "grey"
+    }
+}
