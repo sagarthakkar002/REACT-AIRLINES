@@ -1,12 +1,16 @@
 import React, { Component } from "react";
 import "./App.scss";
+import HomePage from './pages/HomePage'
+import Layout from './components/Layout'
 
 class App extends Component {
     render() {
         return (
             <div className="App">
-                <h1> Hello, World! </h1>
-                <h2>AIR-LINES</h2>
+                <Layout>
+                    <HomePage />
+                </Layout>
+
             </div>
         );
     }
